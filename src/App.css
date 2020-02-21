@@ -28,6 +28,18 @@ h1 {
   padding: 5vh 10vw;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.project1a {
+  width: 50vw;
+}
+
+.project1b {
+  width: 50vw;
+  line-height: 4vh;
+  text-align: justify;
 }
 
 .contact {

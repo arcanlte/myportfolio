@@ -3,7 +3,7 @@ import React from "react";
 function AboutMe() {
   return (
     <div className="aboutMe">
-      <h2>About Me</h2>
+      <h1>ABOUT ME</h1>
       <p>
         I am a hard-working web developer who seeks for a full-time position
         where I can apply my knowledge and skills for professional growth. With
@@ -14,4 +14,4 @@ function AboutMe() {
   );
 }
 
-export default AboutMe
+export default AboutMe;

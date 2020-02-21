@@ -1,13 +1,13 @@
-body{
+body {
   background-color: white;
 }
 
-.base{
+.base {
   display: flex;
   flex-direction: row;
 }
 
-.Profile{
+.Profile {
   width: 35vw;
   background-color: skyblue;
   height: 100vh;
@@ -15,27 +15,33 @@ body{
   text-align: center;
 }
 
-h1{
+h1 {
   font-weight: bold;
 }
 
-.aboutMe{
+.aboutMe {
   padding: 5vh 10vw;
   line-height: 4vh;
 }
 
-.contact{
+.project1 {
+  padding: 5vh 10vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact {
   margin-top: 2vh;
 }
 
-.main{
+.main {
   width: 65vw;
-  display:flex;
+  display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-img{
+img {
   background-color: white;
   display: block;
   margin-top: 10vh;
@@ -45,4 +51,3 @@ img{
   border-radius: 100%;
   box-shadow: 0 0 0 4px #ffffff;
 }
-

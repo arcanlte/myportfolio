@@ -3,6 +3,7 @@ import "./App.css";
 import profPic from "./image/image2.jpg";
 
 import AboutMe from "./components/aboutMe";
+import Projects from "./components/projects";
 
 export default class App extends Component {
   constructor(props) {
@@ -34,7 +35,7 @@ export default class App extends Component {
 
           <div className="main">
             <AboutMe />
-            <div>Projects</div>
+            <Projects />
             <div>Contact me</div>
           </div>
         </div>

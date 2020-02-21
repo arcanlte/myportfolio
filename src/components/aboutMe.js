@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 
 function AboutMe() {
   return (
@@ -13,3 +13,5 @@ function AboutMe() {
     </div>
   );
 }
+
+export default AboutMe

@@ -1,12 +1,14 @@
-import React, { Component } from 'react';
-import './App.css';
-import profPic from './image/image2.jpg'
+import React, { Component } from "react";
+import "./App.css";
+import profPic from "./image/image2.jpg";
+
+import AboutMe from "./components/aboutMe";
 
 export default class App extends Component {
   constructor(props) {
     super(props);
 
-    this.state = {}
+    this.state = {};
   }
 
   render() {
@@ -17,10 +19,12 @@ export default class App extends Component {
             <img src={profPic} />
             <h1>SAMUEL JOSEPH PINANGAY</h1>
             <span>Jr Web Developer | Computer Science | Software Engineer</span>
-            <div className="contact">Contact:
-            New York, NY | PinangayJoel@gmail.com | (646)-824-4632LinkedIn/TechJoe| Github: Arcanlte| www.Portfolio.com
+            <div className="contact">
+              Contact: New York, NY | PinangayJoel@gmail.com |
+              (646)-824-4632LinkedIn/TechJoe| Github: Arcanlte|
+              www.Portfolio.com
             </div>
-            
+
             <nav>
               <div>About me</div>
               <div>Projects</div>
@@ -28,15 +32,13 @@ export default class App extends Component {
             </nav>
           </div>
 
-
           <div className="main">
-              <div>About me</div>
-              <div>Projects</div>
-              <div>Contact me</div>
+            <AboutMe />
+            <div>Projects</div>
+            <div>Contact me</div>
           </div>
         </div>
       </div>
     );
   }
 }
-

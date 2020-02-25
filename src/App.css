@@ -24,8 +24,24 @@ h1 {
   line-height: 4vh;
 }
 
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.profpic {
+  background-color: white;
+  display: block;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border-radius: 100%;
+  box-shadow: 0 0 0 4px #ffffff;
+}
+
 .project1 {
-  padding: 5vh 10vw;
+  padding: 2vh 5vw;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -39,7 +55,27 @@ h1 {
 .project1b {
   width: 50vw;
   line-height: 4vh;
+  text-align: center;
+}
+
+.project2b {
+  width: 50vw;
+  line-height: 4vh;
+  text-align: center;
+}
+
+.paragraph1{
   text-align: justify;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.project2{
+  padding: 2vh 5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .contact {
@@ -47,10 +83,12 @@ h1 {
 }
 
 .main {
+  height: 100vh;
   width: 65vw;
   display: flex;
   flex-direction: column;
   text-align: center;
+  overflow: scroll;
 }
 
 img {
@@ -59,7 +97,5 @@ img {
   margin-top: 10vh;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
-  border-radius: 100%;
-  box-shadow: 0 0 0 4px #ffffff;
+  width: 50%;
 }

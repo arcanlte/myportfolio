@@ -5,10 +5,11 @@ function AboutMe() {
     <div className="aboutMe">
       <h1>ABOUT ME</h1>
       <p>
-        I am a hard-working web developer who seeks for a full-time position
-        where I can apply my knowledge and skills for professional growth. With
-        my passion to learn new skills together with my drive towards personal
-        growth I believe that I am a right fit to your growth driven company.
+        I am an adaptable Software Engineer and CS graduate who holds over three
+        years experience in the health care space. As both a Web Developer and
+        Health care Technician, I take a human-centric approach in developing
+        and explaining technology that helps users feel and perform at their
+        best.
       </p>
     </div>
   );

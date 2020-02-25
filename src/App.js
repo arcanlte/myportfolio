@@ -17,7 +17,7 @@ export default class App extends Component {
       <div className="App">
         <div className="base">
           <div className="Profile">
-            <img src={profPic} />
+            <img className="profpic" src={profPic} />
             <h1>SAMUEL JOSEPH PINANGAY</h1>
             <span>Jr Web Developer | Computer Science | Software Engineer</span>
             <div className="contact">
